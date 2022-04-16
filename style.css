@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+img{
+    width: 100%;
+}
+.container{
+    width: 1000px;
+    margin: auto;
+}
+/* Start Menu Section*/
+.banner_section{
+  background-image: url(./Image/backgroud.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 400px;
+}
+.header_section{
+    padding: 12px;
+}
+.logo{
+    display: inline-block;
+    width: 30%
+}
+.logo img{
+    width: 150px;
+    height: auto;
+}
+.main_menu{
+    width: 69%;
+    display: inline-block;
+    text-align: center;
+}
+.main_menu ul li{
+    display: inline-block;
+}
+.main_menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    padding: 10px 25px;
+}
+.banner_content{
+    text-align: center;
+    padding-top: 140px;
+}
+.banner_content h2{
+    color: white;
+    font-size: 40px;
+}
+.banner_content h2::before{
+    content: '\f10e';
+    font-family: "Font Awesome 5 Pro";
+   
+  
+}
+
+/* End Menu Section*/
+
+/* Start About Section*/
+  .about_heading h2{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 30px;
+  }
+  .about_area{
+
+  }
+  .about_img{
+      display: inline-block;
+      width: 25%;
+  }
+  .about_area img{
+    width: 180px;
+  }
+  .about_content{
+ width: 70%;
+  }
+  .about_content p{
+
+  }
+/* End About Section*/
+
+/* Start Service Section*/
+.service_section{
+    background-color:#2e3e4e;
+}
+.service_heading{
+    text-align: center;
+}
+.service_heading h2{
+    color: #ef664d;
+}
+.service_box{
+    text-align: center;
+}
+.service_item{}
+.service_item span{}
+.service_item h2{}
+.service_item ul{}
+.service_item ul li{
+    list-style: none;
+    font-size: 40px;
+}
+.service_item button{}
+
+/* End Service Section*/
